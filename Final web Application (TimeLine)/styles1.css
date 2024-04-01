@@ -1,0 +1,57 @@
+h1{
+	text-align: center;
+	color: white;
+    font-weight: bold;
+    display: block;
+
+}
+h4{
+    font-family: cursive;
+}
+h5{
+    font-family:cursive;
+}
+h3{
+	text-align: center;
+	color: white;
+}
+input{
+	text-align: center;
+}
+.center{
+	background-color: black;
+	margin: auto;
+	border: solid black;
+	border-radius: 60px;
+	border-width: 10px;
+	box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+  padding: 5px;  
+  border: 10px solid blue;
+}
+body{
+	background-image: url("back1.jpg");
+	background-repeat: no-repeat;
+    background-size: 1900px 800px;
+    background-attachment: fixed;
+}
+.con{
+    width:50%;
+    color: white;
+    background-color: black;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:.8em;
+    padding:20px;
+    border:5px solid blue;
+    border-radius:10px;
+}
+.btn-secondary{
+    color: black;
+
+}
+.btn-secondary:hover{
+    background-color: lightgrey;
+
+}
