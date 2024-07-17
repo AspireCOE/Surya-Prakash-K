@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .student-info {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .student-info p {
+    margin: 10px 0;
+  }
+  
+  .student-info strong {
+    font-weight: bold;
+    color: #483bab;
+  }
+  
+  .student-works {
+    text-align: center;
+  }

@@ -1,0 +1,26 @@
+
+  <title>Welcome to Angular</title>
+
+<body>
+  <h1>Welcome to Angular</h1>
+  <div class="container">
+    <div class="btn-container">
+    <a [routerLink]="'product'">Product</a>
+    <a [routerLink]="'account'">Account</a>
+    <a [routerLink]="'student'">Student</a>
+</div>
+    <router-outlet></router-outlet>
+  </div>
+  {{5| cube}}<br>
+  {{123456|currency:'INR'}}<BR>
+  {{123456|currency:'USD'}}<BR>
+  {{title|uppercase}}<BR>
+  {{title|lowercase}}<BR>
+  {{DOJ|date:'fullDate'}}<BR>
+  {{DOJ|date:'shortDate'}}<BR>
+  {{DOJ|date:'shortTime'}}<BR>
+  {{DOJ|date:'fullTime'}}<BR>
+  {{DOJ|date:'dd/MM/yy'}}<BR>
+  {{[2,3,4,5,6,7]|slice:2}}<BR>
+  {{[2,3,4,5,6,7]|slice:2:5}} 
+</body>

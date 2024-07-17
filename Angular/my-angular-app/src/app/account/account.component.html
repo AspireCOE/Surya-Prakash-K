@@ -1,0 +1,39 @@
+<p>Account works!</p>
+
+<div class="account-type-select">
+    <label for="accountType">Choose Account Type:</label>
+    <select [(ngModel)]="AccountTypeInput" id="accountType">
+      <option>Savings</option>
+      <option>Checking</option>
+      <option>Investment</option>
+    </select>
+  </div>
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Account Number</th>
+            <th>Account Holder Name</th>
+            <th>Type of Account</th>
+            <th>Amount</th>
+            <th>DOJ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (account of accounts; track account){
+            <tr>
+                @if (account.TypeOfAccount == AccountTypeInput){
+             
+                <td>{{account.AccountNumber}}</td>
+                <td>{{account.AccountHolderName}}</td>
+                <td>{{account.TypeOfAccount}}</td>
+                <td>{{account.Amount}}</td>
+                <td>{{account.DOJ}}</td>
+                }
+
+            </tr>
+        }
+    </tbody>
+</table>

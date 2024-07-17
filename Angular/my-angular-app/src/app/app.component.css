@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #483bab;
+    margin-top: 50px;
+  }
+  
+  .container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    background-color: #fff;
+  }
+  .btn-container {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+  
+  a {
+    text-decoration: none;
+    color: #483bab;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #e3d7ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #bca4ff;
+  }
+  
+  router-outlet {
+    margin-top: 20px;
+  }
+
+  .btn-primary {
+    background-color: #483bab;
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background-color: #2e2469;
+  }
+
+  .btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+
+  .btn-secondary:hover {
+    background-color: #ddd;
+  }
+
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    color: #483bab;
+    margin-bottom: 10px;
+  }
+
+  .card-content {
+    color: #666;
+  }
